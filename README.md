@@ -27,9 +27,11 @@ The basic model has RMSE score at 3.941 (The leader has it at 3.637, smaller is 
 
 ### Model improvement (ongoing...):
 
-Each card ("card_id") contains multiple tansactions with amounts ("purchase_amount"), time ("month_lag"), merchants ("	merchant_id", ""merchant_category_id"), etc.  
+(1) Each card ("card_id") contains multiple tansactions with amounts ("purchase_amount"), time ("month_lag"), merchants ("	merchant_id", ""merchant_category_id"), etc.  
 
-  More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect card holder attitude towards the future promotions/discounts. These data can be treated as sequence events.  I will reorganize the data as shown in the following diagram. Hopefully, the model will perform better.      
+(2) More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect card holder attitude towards the future promotions/discounts. These data can be treated as sequence events.  I will reorganize the data as shown in the following diagram. Hopefully, the model will perform better.      
 ![alt text](https://github.com/Jun-depo/Merchant-Category-Recommendaton/blob/master/add_more_features.png)
+(3) "Purchase_amount" will be de-normalized (with MinMax()) for each tranaction to get rid of negative numbers.  I will add  up "Purchase_amount" for each month to get "Total_trans_amt".
+
 
 
