@@ -27,6 +27,6 @@ The basic model has RMSE score at 3.941 (The leader has it at 3.637, smaller is 
 
 ### Adding more features (ongoing...)
 
-Transactions for each card ("card_id") contains amounts, time and merchants.  More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect card holder attitude towards the future promotions/discounts.  I will reorganize the data as shown in the following diagram.  
+Each card ("card_id") caontains multiple tansactions with amounts ("purchase_amount"), time ("month_lag"), merchants ("	merchant_id", ""merchant_category_id"), etc.  More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect card holder attitude towards the future promotions/discounts.  I will reorganize the data as shown in the following diagram.  
 
 
