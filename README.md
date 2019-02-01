@@ -23,9 +23,7 @@ The data contain several tables:
 ### Basic model (neural network):
 
 The basic model only contains some of features.  Other features will be added into the model in the future.  The following screenshot shows the features used in the model.   
-![alt text](https://github.com/Jun-depo/Merchant-Category-Recommendaton/blob/master/basic_features.png)
-
-The basic model has RMSE score at 3.941 (The leader has it at 3.637, smaller is better). 
+![alt text](https://github.com/Jun-depo/Merchant-Category-Recommendaton/blob/master/basic_features.png) 
 
 ### Model improvement (ongoing...):
 
