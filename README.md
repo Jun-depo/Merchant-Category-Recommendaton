@@ -1,4 +1,4 @@
-# Elo Merchant Category Recommendaton (ongoing...)
+# Elo Merchant Category Recommendation (ongoing...)
 This is ongoing Kaggle competition that will end on February 26, 2019.
 https://www.kaggle.com/c/elo-merchant-category-recommendation
 
