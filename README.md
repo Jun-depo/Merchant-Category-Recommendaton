@@ -29,9 +29,7 @@ The basic model only contains some of features.  Other features will be added in
 
 (1) Each card ("card_id") contains multiple tansactions with amounts ("purchase_amount"), time ("month_lag"), merchants ("	merchant_id", ""merchant_category_id"), etc.  
 
-(2) More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect card holder attitude towards the future promotions/discounts. These data can be treated as sequence events.  I will reorganize the data as shown in the following diagram. Hopefully, the model will perform better.      
-![alt text](https://github.com/Jun-depo/Merchant-Category-Recommendaton/blob/master/add_more_features.png)
-(3) "Purchase_amount" will be de-normalized (with MinMax()) for each tranaction to get rid of negative numbers.  I will add  up "Purchase_amount" for each month to get "Total_trans_amt".
+(2) More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect card holder attitude towards the future promotions/discounts. I am still in experimenting with different feature engineering on these data to improve model prediction.  I will discuss these in near future.  
 
 
 
