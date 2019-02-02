@@ -29,7 +29,9 @@ The basic model only contains some of features.  Other features will be added in
 
 (1) Each card ("card_id") contains multiple tansactions with amounts ("purchase_amount"), time ("month_lag"), merchants ("	merchant_id", ""merchant_category_id"), etc.  
 
-(2) More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect card holder attitude towards the future promotions/discounts. I am still in experimenting with different feature engineering on these data to improve model prediction.  I will discuss these in near future.  
+(2) More recent transactions are likely to be more informative for predictions than transactions happened long time ago.  Also, if transactions occurs at good/bad merchants would also affect attitudes of card holders  towards future promotions/discounts. 
+
+I am still experimenting with different feature engineerings on these data to be used for the model(s).  I will discuss these in near future.  
 
 
 
